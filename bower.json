@@ -1,0 +1,13 @@
+{
+  "name": "angular-boilerplate-code",
+  "description": "angular basic file structure and code to start",
+  "main": "index.html",
+  "authors": [
+    "monis"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "devDependencies": {
+    "angular": "^1.5.8"
+  }
+}
