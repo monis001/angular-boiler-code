@@ -8,6 +8,9 @@
   "license": "MIT",
   "homepage": "",
   "devDependencies": {
-    "angular": "^1.5.8"
+    "angular": "^1.5.8",
+    "restangular": "^1.5.2",
+    "angular-ui-router": "ui-router#^0.3.1",
+    "bootstrap": "^3.3.7"
   }
 }

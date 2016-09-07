@@ -1,4 +1,4 @@
 angular.module('myApp',[
-	'ui-router',
-	'restangular'
-	]);
+	'restangular',
+	'ui.router'
+	])
