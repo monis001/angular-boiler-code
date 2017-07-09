@@ -332,7 +332,7 @@ angular.module('myAppName.restclient', ['restangular'])
  * Directive to call myAppRestClient service method directly from templates
  * Use: lazy load data using url in views (same logic of how images load in pages using src tag)
  * How to use: <any fsop-rest-client="" [fetched-varname=""]></any>
- * @author mayank
+ * 
  */
 .directive('myAppRestClient', function($myAppRestClient, $parse) {
     return {
