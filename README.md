@@ -12,5 +12,5 @@ Though build and development environment are not setup  yet, you can use any sta
 
 *voila*
 
-1. *Tip*:*whenever you bower install, use `--save -dev`, e.g.: `bower install angular --save -dev ` it will save your dependencies and help in future too.*
-2. *build or dev environment by NPM  not supported yet*.
+1. **Tip** : *whenever you bower install, use `--save -dev`, e.g.: `bower install angular --save -dev ` it will save your dependencies and help in future too.*
+2. *Build or Dev environment by NPM  not supported yet*.
