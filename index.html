@@ -3,18 +3,41 @@
 <head>
 	<title>angular bolierplate code</title>
 </head>
+<!--<base href="/"></base>-->
 <body ng-app="myApp">
 
+<h1>Hello world from root home</h1>
+
+<!-- Here views will be injected-->
+<ui-view></ui-view>
 
 
-
-<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
-<script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-<script type="text/javascript" src="bower_components/lodash/dist/lodash.min.js"></script>
-<script type="text/javascript" src="bower_components/restangular/dist/restangular.min.js"></script>
+<script type="text/javascript" src="src/vendor/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="src/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="src/vendor/angular/angular.min.js"></script>
+<script type="text/javascript" src="src/vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script type="text/javascript" src="src/vendor/lodash/dist/lodash.min.js"></script>
+<script type="text/javascript" src="src/vendor/restangular/dist/restangular.min.js"></script>
 
 <script type="text/javascript" src="src/app.js"></script>
+
+<!-- @ common/api-->
+<script type="text/javascript" src="src/common/api/restclient-module.js"></script>
+<script type="text/javascript" src="src/common/api/api-route-module.js"></script>
+<script type="text/javascript" src="src/common/api/angular-xhr-shim.js"></script>
+<script type="text/javascript" src="src/common/api/api-http-interceptor.js"></script>
+
+<!--@ login module -->
+<script type="text/javascript" src="src/common/security/login-module.js"></script>
+<!--<script type="text/javascript" src="src/common/security/controllers/" ></script> -->
+
+<!-- @ home module-->
+<script type="text/javascript" src="src/app/home/home-module.js"></script>
+<script type="text/javascript" src="src/app/home/controllers/dashBoard-controller.js"></script>
+
+
+<!-- @ common-->
+<script type="text/javascript" src="src/common/constants/constant-module.js"></script>
+
 </body>
 </html>
